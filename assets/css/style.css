@@ -1,0 +1,326 @@
+/* common code start */
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    /* background-color: #00040F; */
+}
+
+.ifrm {
+    overflow: hidden;
+    margin: 20px 0;
+    padding: 30px;
+    width: 500px;
+    height: 400px;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 5px;
+}
+.ui-title {
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #2f2f2f;
+}
+/* common code end */
+
+.accordint {
+    width: 40%;
+    border: 1px solid #000;
+    
+}
+.box-1 {
+    padding: 10px 15px;
+    background-color: aqua;
+    cursor: pointer;
+}
+.box-1 h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.box-2 {
+    display: none;
+    padding: 10px 15px;
+    background-color: #cdffee;
+}
+.box-2 p {}
+
+#draggable {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    border: 2px solid #bdbdbd;
+}
+
+#draggable2 {
+    width: 100px;
+    height: 100px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px 10px 10px 0;
+}
+
+#droppable {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    float: left;
+    margin: 10px;
+}
+
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+#sortable li {
+    margin: 5px 3px 3px 3px;
+    padding: 0.4em;
+    padding-left: 30px;
+    height: 40px;
+}
+
+#sortable li span {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: -1.3em;
+}
+
+.ui-accordion .ui-accordion-content {
+    height: 130px;
+    overflow-y: scroll;
+}
+
+label {
+    display: inline-block;
+    width: 5em;
+}
+
+.toggler {
+    width: 500px;
+    height: 150px;
+    position: relative;
+}
+
+#button {
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+#effect {
+    width: 360px;
+    padding: 1em;
+    border: 1px solid #000;
+    background: #eee;
+    color: #333;
+}
+
+.newClass {
+    text-indent: 40px;
+    letter-spacing: .4em;
+    width: 410px;
+    height: 130px;
+    padding: 30px;
+    /* margin: 10px; */
+}
+
+
+/* remove class  */
+
+.removeToggler {
+    width: 500px;
+    height: 150px;
+    position: relative;
+}
+
+#removeButton {
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+#removeClass {
+    position: relative;
+    width: 300px;
+    padding: 1em;
+    letter-spacing: 0;
+    font-size: 16px;
+    border: 1px solid #000;
+    background: #eee;
+    color: #333;
+}
+
+.removeNewClass {
+    text-indent: 40px;
+    letter-spacing: .4em;
+    width: 410px;
+    height: 100px;
+    padding: 30px;
+    /* font-size: 25px; */
+}
+
+/* switch class */
+
+.switchToggler {
+    width: 500px;
+    height: 180px;
+    
+    position: relative;
+}
+
+#switchButton {
+    padding: .5em 1em;
+    text-decoration: none;
+    
+}
+
+#switchTogglerEffect {
+    position: relative;
+}
+
+.switchNewClass {
+    width: 240px;
+    padding: 1em;
+    letter-spacing: 0;
+    margin: 0;
+    background: #eee;
+    color: #333;
+    border: 1px solid #000;
+}
+
+.switchAnotherNewClass {
+    text-indent: 40px;
+    letter-spacing: .2em;
+    width: 350px;
+    height: 150px;
+    padding: 30px;
+    /* margin: 10px; */
+    font-size: 17px;
+    background: #eee;
+    color: #333;
+    border: 1px solid #000;
+}
+
+
+/* toggle class */
+
+.toggler {
+    width: 500px;
+    height: 200px;
+    position: relative;
+}
+
+#toggleButton {
+    padding: .5em 1em;
+    text-decoration: none;
+}
+
+#toggleEffect {
+    margin-bottom: 50px;
+    position: relative;
+    width: 240px;
+    padding: 1em;
+    letter-spacing: 0;
+    font-size: 16px;
+    border: 1px solid #000;
+    background: #eee;
+    color: #333;
+}
+
+.toggleNewClass {
+    text-indent: 40px;
+    letter-spacing: .4em;
+    width: 410px;
+    /* height: 00px; */
+    padding: 30px;
+    /* margin: 10px; */
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+
+/* counter 2 */
+.flex {
+    margin: 50px 0;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.flex div { 
+    width: 250px;
+    height: 200px;
+    padding: 50px 0;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background: #19f;
+    color: #fff;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.countdown-container {
+    background-image: url('../vendor/counter-up3/img/sample.jpg');
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    padding: 50px;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+.clock-item .inner {
+    height: 0px;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.clock-canvas {
+    background-color: rgba(255, 255, 255, .1);
+    border-radius: 50%;
+    height: 0px;
+    padding-bottom: 100%;
+}
+
+.text {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -50px;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+    width: 100%;
+}
+
+.text .val {
+    font-size: 50px;
+}
+
+.text .type-time {
+    font-size: 20px;
+}
+
+/**
+ * Text 1
+ */
+#text1 {
+    margin: 3.0em 0.0em;
+    overflow: hidden;
+    font: normal normal normal 2.0em/1.5 'Open Sans Light', sans-serif;
+    color: #ffffff;
+    background-color: #3fafee;
+}
+
+
+/**
